@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Manrope;
+}
+
+header {
+  align-items: center
+
+}
+
+.header-bg {
+  margin: 0;
+  background-color: #0C0C0C;
+}
+
+.titulo-versão{
+  display: flex;
+  align-items: flex-end;
+
+}
+
+.header-content { display: flex;
+  flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+box-sizing: border-box;
+padding: 20px;
+max-width: 1600px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.header-menu {
+  display: flex;
+  padding: 30px 30px;
+  gap: 100px;
+}
+
+.header-menu a {
+ display: inline-block;
+ color: var(--unnamed-color-d7d8d9);
+ text-align: left;
+ font: normal normal normal 1rem Manrope;
+ color: #D7D8D9;
+}
+
+.titulo {
+  text-align: left;
+  font: bold 2rem Manrope;
+  color: #D7D8D9;
+  }
+
+  button{
+    color: #D7D8D9;
+    background-color: #0C0C0C;
+  }
+
+  .Dropdown {
+    font: normal normal normal 0.75rem Manrope;
+    color: #D7D8D9;
+    background-color: #0C0C0C;
+    border-color: #0C0C0C;
+  }
+
+  .header-content {
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #0C0C0C;}
+
+    .entrar {
+      text-align: right;
+      color: #D7D8D9;
+      font:  bold 1.125rem Manrope;
+      background: #5757FF ;
+      padding: 8px 24px 8px 24px ;
+      border-radius: 1rem;
+      
+    }
+
+    input[type="checkbox"] 
+    {
+      opacity: 0;
+      position: absolute;
+      right: 00;
+    }
+      
+      label span::after, label span::before {
+        position: absolute;
+        display: block;
+        background: inherit;
+        width: inherit;
+        height: inherit;
+      } 
+
+      label span::before{
+        top: 0.5rem;
+      }
+      
+      label span::after {
+        bottom: 0.5rem;
+      } 
+      
+      label::before {
+        position: absolute;
+        content: "";
+        width: 58px;
+        height: 49px; 
+        top: 0;
+        right: 0;
+      }
+      
+      input[type="checkbox"]:focus + label::before {
+        box-shadow: 0 0 20px black;
+      }
+      
+      
+      
+      ul li button {
+          font-size: inherit;
+          border: none;
+          background-color: transparent;
+          cursor: pointer;
+          width: 100%;
+      }
+      
+      ul li a {
+         display: block;
+         color: inherit;
+         text-decoration: none;
+      }
+      
+      ul li a, ul li button {
+        padding: 0.7rem 1rem;
+        text-align: left;
+      }
+      
+      .menus {
+        position: absolute;
+        top: 3.2rem;
+        left: 0;
+        right: 0;
+        
+        /*  hide dropdown on small screens  */
+        visibility: hidden;
+        /*  smooth transitioning  */
+        transform: translateY(-1em);
+        transition: transform ease 0.2s;
+      }
+      
+      /* toggle main dropdown */
+      
+      input[type="checkbox"]:checked ~ nav > ul {
+        visibility: visible;
+        transform: translateY(0);
+      }
+      
+      .dropdown {
+        padding: 2px 1.5rem;
+        height: 0;
+        overflow: hidden;
+        transition: height ease 0.2s;
+      }
+      
+      li:focus-within .dropdown {
+        height: 8.438rem;
+      }
+      
+      .arrow {
+        width: 0.5em;
+        height: 0.5em;
+        display: inline-block;
+        vertical-align: middle;
+        border-left: 0.15em solid currentColor;
+        border-bottom: 0.15em solid currentColor;
+        transform: rotate(-45deg);
+        margin-left: 0.38em;
+        margin-top: -0.25em;
+        transition: transform 100ms ease-in-out;
+      }
+      
+      li:focus-within > button > .arrow {
+        transform: rotate(-225deg);
+        margin-top: 4px;
+      }
+      
+      /* MEDIA QUERIES  */
+      @media (min-width: 640px) {
+        
+        .header-content {
+          display: flex;
+        }
+        
+        .menus {
+          position: static;
+          visibility: visible;
+          background: #0C0C0C;
+          display: flex;
+          transform: initial;
+        }
+        
+        label, input[type="checkbox"] {
+          display: none;
+        }
+        
+        ul li {
+          position: relative;
+          font-size: 0.875rem;
+        }
+        
+        ul li a:hover,
+        ul li button:hover {
+          text-decoration: underline;
+        }
+        
+        .dropdown {
+          color: #D7D8D9;
+          position: absolute;
+          right: 0;
+          left: auto;
+          box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+          0 4px 6px -2px rgba(71, 63, 79, 0.16);
+          z-index: 99;
+          min-width: 10rem;
+          padding: 0;
+          background-color:#0C0C0C;
+          border-radius: 0 0 0.5rem 0.5rem; 
+        }
+        
+        ul li:hover .dropdown {
+          height: 135px;
+        }
+        
+        ul li:hover > button > .arrow {
+          transform: rotate(-225deg);
+          margin-top: 4px;
+        }
+
+        .arrow {
+          color: #5757FF;}
