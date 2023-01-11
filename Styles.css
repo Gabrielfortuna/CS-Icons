@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
@@ -13,9 +15,6 @@ body {
 .header-bg {
   display: flex;
   color: #D7D8D9;
-  /* flex-direction: row; */
-  /* max-width: 1592px; */
-  /* margin: 0 auto; */
   gap: 350px;
   justify-content: space-between;
   margin: 0 135px;
@@ -31,11 +30,8 @@ body {
 }
 
 .titulo {
-  text-align: left;
   font: bold 2rem Manrope;
   color: #D7D8D9;
-  text-decoration: none;
-
 }
 
 .header-content {
@@ -52,7 +48,6 @@ body {
   display: flex;
   padding: 30px 30px;
   gap: 190px;
-  list-style: none;
 }
 
 .header-menu a {
@@ -63,23 +58,23 @@ body {
   color: #D7D8D9;
 }
 
-button {
+.Button-drop-versao  {
   font-family: Manrope regular;
   color: #D7D8D9;
   background-color: #0C0C0C;
 }
 
-button {
+.Button-drop-versao  {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
 
-button::-ms-expand {
+.Button-drop-versao ::-ms-expand {
   display: none;
 }
 
-.drop {
+.drop-versao {
   display: grid;
   font-family: Manrope regular;
 }
@@ -159,7 +154,6 @@ ul li button {
 ul li a {
   display: block;
   color: inherit;
-  text-decoration: none;
 }
 
 ul li a,
@@ -189,6 +183,7 @@ input[type="checkbox"]:checked~nav>ul {
 }
 
 .dropdown {
+  margin-top: 22px;
   padding: 2px 1.5rem;
   height: 0;
   overflow: hidden;
@@ -257,7 +252,6 @@ li:focus-within>button>.arrow {
     padding: 0;
     background-color: #0C0C0C;
     border-radius: 0 0 0.5rem 0.5rem;
-    list-style: none;
   }
 
   ul li:hover .dropdown {
@@ -321,7 +315,6 @@ li:focus-within>button>.arrow {
     text-align: left;
     font: normal normal normal 16px/22px Manrope;
     color: #7878FF;
-    list-style: none;
   }
 
   .dot {
@@ -349,7 +342,6 @@ li:focus-within>button>.arrow {
     padding: 8px 24px 8px 24px;
     border-radius: 1rem;
     cursor: pointer;
-    text-decoration: none;
   }
 
   .containers-informativo {
