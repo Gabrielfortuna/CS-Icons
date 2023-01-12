@@ -18,8 +18,9 @@
         <div class="titulo-versão">
           <a href="./" class="titulo"><strong>CS Icons</strong></a>
 
-          <li class="drop-versao">
-            <button class="Button-drop-versao"
+          <div class="drop-versao">
+            <button
+              class="Button-drop-versao"
               type="button"
               aria-haspopup="true"
               aria-expanded="true"
@@ -33,7 +34,7 @@
               <li><a href="#">0.00.00</a></li>
               <li><a href="#">0.00.00</a></li>
             </ul>
-          </li>
+          </div>
         </div>
 
         <input type="checkbox" id="hamburger" aria-label="menu button" />
@@ -94,9 +95,17 @@
           </p>
         </div>
       </div>
-
-      <div class="drop-categoria">
-        <button type="button">Categoria<span class="arrow"></span></button>
+      <div class="pesquisa">
+        <div>
+          <button class="drop-categoria" class="" type="button">
+            Categoria<span class="arrow"></span>
+          </button>
+        </div>
+        <input
+          type="search"
+          class="barra-de-pesquisa"
+          placeholder="Pesquise aqui pelo ícone que deseja"
+        />
       </div>
     </article>
   </body>
