@@ -1,3 +1,4 @@
+/*
 * {
   margin: 0;
   padding: 0;
@@ -170,10 +171,10 @@ ul li button {
   right: 0;
 
   /*  hide dropdown on small screens  */
-  visibility: hidden;
-  /*  smooth transitioning  */
-  transform: translateY(-1em);
-  transition: transform ease 0.2s;
+visibility: hidden;
+/*  smooth transitioning  */
+transform: translateY(-1em);
+transition: transform ease 0.2s;
 }
 
 /* toggle main dropdown */
@@ -403,13 +404,13 @@ li:focus-within>button>.arrow {
     justify-content: space-between;
     width: 85rem;
     background: none;
-    
+
   }
 
-.barra-de-pesquisa {
-  background: transparent url(/svg/Icon\ material-search.svg) no-repeat 13px center;
-  background-position: 82.5rem;
-}
+  .barra-de-pesquisa {
+    background: transparent url(/svg/Icon\ material-search.svg) no-repeat 13px center;
+    background-position: 82.5rem;
+  }
 
   .pesquisa {
     display: flex;
