@@ -1,4 +1,4 @@
-
+/*
 * {
   margin: 0;
   padding: 0;
@@ -170,14 +170,14 @@ ul li button {
   left: 0;
   right: 0;
 
-  /*  hide dropdown on small screens  */
+  /*  hide dropdown on small screens  
 visibility: hidden;
-/*  smooth transitioning  */
+/*  smooth transitioning  
 transform: translateY(-1em);
 transition: transform ease 0.2s;
 }
 
-/* toggle main dropdown */
+/* toggle main dropdown 
 
 input[type="checkbox"]:checked~nav>ul {
   visibility: visible;
@@ -216,7 +216,7 @@ li:focus-within>button>.arrow {
   margin-top: 4px;
 }
 
-/* MEDIA QUERIES  */
+/* MEDIA QUERIES  
 @media (min-width: 640px) {
 
 
@@ -433,3 +433,5 @@ li:focus-within>button>.arrow {
     background-color: #0C0C0C;
     border: #0C0C0C;
   }
+
+ 
