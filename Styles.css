@@ -29,15 +29,17 @@
   background-color: #0C0C0C;
 }
 
-.navbar-item {
-  padding: 8px !important;
-}
 
 * {
   font-family: Manrope !important;
   color: #D7D8D9 !important;
   /*background-color: #0C0C0C;*/
 }
+.dropdown-toggle::after {
+content: url('svg/Icon\ material-keyboard-arrow-right.svg');
+}
+
+
 
 /*
 * {
