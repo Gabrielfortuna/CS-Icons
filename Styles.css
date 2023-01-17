@@ -1,3 +1,44 @@
+.text-primary {
+  color: #D7D8D9 !important;
+}
+
+.bg-primary {
+  color: #5757FF !important;
+}
+
+.text-secondary {
+  color: #5757FF !important;
+}
+
+.btn-secondary {
+  color: #D7D8D9;
+  background-color: #0C0C0C;
+}
+
+.bg-secondary {
+  background-color: #0C0C0C !important;
+}
+
+.btn-primary {
+  color: #D7D8D9 !important;
+  background-color: #5757FF !important;
+  border-radius: 16px;
+}
+
+.dropdown-menu-dark {
+  background-color: #0C0C0C;
+}
+
+.navbar-item {
+  padding: 8px !important;
+}
+
+* {
+  font-family: Manrope !important;
+  color: #D7D8D9 !important;
+  /*background-color: #0C0C0C;*/
+}
+
 /*
 * {
   margin: 0;
