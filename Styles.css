@@ -37,6 +37,7 @@
 }
 .dropdown-toggle::after {
 content: url('svg/Icon\ material-keyboard-arrow-right.svg');
+border: 0;
 }
 
 
