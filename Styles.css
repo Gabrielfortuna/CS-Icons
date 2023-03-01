@@ -1,62 +1,4 @@
-.text-primary {
-  color: #D7D8D9 !important;
-}
 
-.bg-primary {
-  color: #5757FF !important;
-}
-
-.text-secondary {
-  color: #5757FF !important;
-}
-
-.btn-secondary {
-  color: #D7D8D9;
-  background-color: #0C0C0C;
-}
-
-.bg-secondary {
-  background-color: #0C0C0C !important;
-}
-
-.btn-primary {
-  color: #D7D8D9 !important;
-  background-color: #5757FF !important;
-  border-radius: 16px;
-}
-
-.dropdown-menu-dark {
-  background-color: #0C0C0C;
-  border-color: #D7D8D9;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
-
-.dropdown-item:hover {
-  text-decoration: underline;
-}
-
-.btn-primary:hover {
-background-color: #7878FF !important;
-}
-
-
-
-* {
-  font-family: Manrope !important;
-  color: #D7D8D9 !important;
-  /*background-color: #0C0C0C;*/
-}
-.dropdown-toggle::after {
-content: url('svg/Icon\ material-keyboard-arrow-right.svg');
-border: 0;
-}
-
-
-
-/*
 * {
   margin: 0;
   padding: 0;
@@ -228,14 +170,14 @@ ul li button {
   left: 0;
   right: 0;
 
-  /*  hide dropdown on small screens  
+   hide dropdown on small screens  
 visibility: hidden;
-/*  smooth transitioning  
+  smooth transitioning  
 transform: translateY(-1em);
 transition: transform ease 0.2s;
 }
 
-/* toggle main dropdown 
+/* toggle main dropdown */
 
 input[type="checkbox"]:checked~nav>ul {
   visibility: visible;
@@ -274,7 +216,7 @@ li:focus-within>button>.arrow {
   margin-top: 4px;
 }
 
-/* MEDIA QUERIES  
+/* MEDIA QUERIES  */
 @media (min-width: 640px) {
 
 
