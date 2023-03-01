@@ -170,9 +170,9 @@ ul li button {
   left: 0;
   right: 0;
 
-   hide dropdown on small screens  
+  /* hide dropdown on small screens */ 
 visibility: hidden;
-  smooth transitioning  
+  /* smooth transitioning */ 
 transform: translateY(-1em);
 transition: transform ease 0.2s;
 }
@@ -433,5 +433,3 @@ li:focus-within>button>.arrow {
     background-color: #0C0C0C;
     border: #0C0C0C;
   }
-
- 
